@@ -1,0 +1,13 @@
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.csproj.AssemblyReference.cache
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.GirisSecim.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Properties.Resources.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.csproj.GenerateResource.cache
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.csproj.CoreCompileInputs.cache
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\bin\Debug\BeylinaWinApp.exe.config
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\bin\Debug\BeylinaWinApp.exe
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\bin\Debug\BeylinaWinApp.pdb
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.AnaForm.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.exe
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.pdb
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.UyeGiris.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.Üye.UyeKayit.resources
