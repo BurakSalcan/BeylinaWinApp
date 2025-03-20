@@ -11,3 +11,5 @@ C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.pdb
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.UyeGiris.resources
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.Üye.UyeKayit.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.CalisanGiris.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.Çalışan.CalisanKayit.resources

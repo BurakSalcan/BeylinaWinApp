@@ -52,6 +52,12 @@
     <Compile Include="AnaForm.Designer.cs">
       <DependentUpon>AnaForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CalisanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalisanForm.Designer.cs">
+      <DependentUpon>CalisanForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Giriş\Çalışan\CalisanGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,8 @@
     <Compile Include="Giriş\Üye\UyeKayit.Designer.cs">
       <DependentUpon>UyeKayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Calisan.cs" />
+    <Compile Include="Model\LoginCalisan.cs" />
     <Compile Include="Model\LoginUser.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
@@ -91,6 +99,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Giriş\GirisSecim.resx">
       <DependentUpon>GirisSecim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giriş\Çalışan\CalisanGiris.resx">
+      <DependentUpon>CalisanGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giriş\Çalışan\CalisanKayit.resx">
+      <DependentUpon>CalisanKayit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Giriş\Üye\UyeGiris.resx">
       <DependentUpon>UyeGiris.cs</DependentUpon>

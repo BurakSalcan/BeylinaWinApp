@@ -30,13 +30,6 @@ namespace BeylinaWinApp
                     uyeGirisFormu.Hide();
                     uyeGirisFormu.Close();
                 }
-
-                //if (form is UyeGiris)
-                //{
-                //    form.Hide();
-                //    form.Close();
-                //    break;
-                //}
             }
         }
     }
