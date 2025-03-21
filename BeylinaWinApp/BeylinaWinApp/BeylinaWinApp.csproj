@@ -94,8 +94,41 @@
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Çalışan Paneli\Kategori İşlemleri\Kategoriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Çalışan Paneli\Kategori İşlemleri\Kategoriler.Designer.cs">
+      <DependentUpon>Kategoriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Çalışan Paneli\Kayıtlı Kullanıcı İşlemleri\Calisanlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Çalışan Paneli\Kayıtlı Kullanıcı İşlemleri\Calisanlar.Designer.cs">
+      <DependentUpon>Calisanlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Çalışan Paneli\Kayıtlı Kullanıcı İşlemleri\Uyeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Çalışan Paneli\Kayıtlı Kullanıcı İşlemleri\Uyeler.Designer.cs">
+      <DependentUpon>Uyeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Çalışan Paneli\KullaniciBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Çalışan Paneli\KullaniciBilgileri.Designer.cs">
+      <DependentUpon>KullaniciBilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Çalışan Paneli\Ürün İşlemleri\Urunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Çalışan Paneli\Ürün İşlemleri\Urunler.Designer.cs">
+      <DependentUpon>Urunler.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AnaForm.resx">
       <DependentUpon>AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalisanForm.resx">
+      <DependentUpon>CalisanForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Giriş\GirisSecim.resx">
       <DependentUpon>GirisSecim.cs</DependentUpon>
@@ -121,6 +154,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Çalışan Paneli\Kayıtlı Kullanıcı İşlemleri\Calisanlar.resx">
+      <DependentUpon>Calisanlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Çalışan Paneli\Kayıtlı Kullanıcı İşlemleri\Uyeler.resx">
+      <DependentUpon>Uyeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Çalışan Paneli\KullaniciBilgileri.resx">
+      <DependentUpon>KullaniciBilgileri.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

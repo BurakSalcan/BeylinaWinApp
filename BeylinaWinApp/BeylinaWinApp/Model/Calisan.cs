@@ -14,6 +14,10 @@ namespace BeylinaWinApp.Model
 
         public string Soyisim { get; set; }
 
+        public string Mail { get; set; }
+
+        public string Sifre { get; set; }
+
         public string TamIsim { get; set; }
     }
 }

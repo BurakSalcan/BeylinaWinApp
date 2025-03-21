@@ -13,3 +13,7 @@ C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.Üye.UyeKayit.resources
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.CalisanGiris.resources
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Giriş.Çalışan.CalisanKayit.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.CalisanForm.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.Kayıtlı_Kullanıcı_İşlemleri.Calisanlar.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.Kayıtlı_Kullanıcı_İşlemleri.Uyeler.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.KullaniciBilgileri.resources

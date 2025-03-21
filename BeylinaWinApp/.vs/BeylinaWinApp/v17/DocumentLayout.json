@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisangiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisangiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\\u00E7al\u0131\u015Fan paneli\\kullanicibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\\u00E7al\u0131\u015Fan paneli\\kullanicibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\calisanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\calisanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisangiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisangiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisankayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisankayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\model\\calisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\model\\calisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisankayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisankayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisangiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\giri\u015F\\\u00E7al\u0131\u015Fan\\calisangiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\giri\u015F\\\u00FCye\\uyekayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\giri\u015F\\\u00FCye\\uyekayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|c:\\users\\burak\\source\\repos\\beylinawinapp\\beylinawinapp\\\u00E7al\u0131\u015Fan paneli\\kullanicibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CBE8794-F26B-4940-BE0F-176F4D8F85C8}|BeylinaWinApp\\BeylinaWinApp.csproj|solutionrelative:beylinawinapp\\\u00E7al\u0131\u015Fan paneli\\kullanicibilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +34,81 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Calisan.cs",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Model\\Calisan.cs",
+              "RelativeDocumentMoniker": "BeylinaWinApp\\Model\\Calisan.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Model\\Calisan.cs",
+              "RelativeToolTip": "BeylinaWinApp\\Model\\Calisan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T21:47:16.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CalisanGiris.cs",
               "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanGiris.cs",
               "RelativeDocumentMoniker": "BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanGiris.cs",
               "ToolTip": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanGiris.cs",
               "RelativeToolTip": "BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanGiris.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwDkAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:46:01.852Z",
+              "WhenOpened": "2025-03-21T21:43:10.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "KullaniciBilgileri.cs",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\\u00C7al\u0131\u015Fan Paneli\\KullaniciBilgileri.cs",
+              "RelativeDocumentMoniker": "BeylinaWinApp\\\u00C7al\u0131\u015Fan Paneli\\KullaniciBilgileri.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\\u00C7al\u0131\u015Fan Paneli\\KullaniciBilgileri.cs",
+              "RelativeToolTip": "BeylinaWinApp\\\u00C7al\u0131\u015Fan Paneli\\KullaniciBilgileri.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T21:35:22.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalisanForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\CalisanForm.cs",
+              "RelativeDocumentMoniker": "BeylinaWinApp\\CalisanForm.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\CalisanForm.cs [Design]",
+              "RelativeToolTip": "BeylinaWinApp\\CalisanForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:49:23.297Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CalisanGiris.cs [Design]",
               "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanGiris.cs",
               "RelativeDocumentMoniker": "BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanGiris.cs",
               "ToolTip": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanGiris.cs [Design]",
               "RelativeToolTip": "BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanGiris.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:38:29.216Z",
+              "WhenOpened": "2025-03-21T21:43:07.626Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CalisanKayit.cs",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanKayit.cs",
-              "RelativeDocumentMoniker": "BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanKayit.cs",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanKayit.cs",
-              "RelativeToolTip": "BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanKayit.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAuwEIAAAAwAAAA",
+              "DocumentIndex": 5,
+              "Title": "KullaniciBilgileri.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\\u00C7al\u0131\u015Fan Paneli\\KullaniciBilgileri.cs",
+              "RelativeDocumentMoniker": "BeylinaWinApp\\\u00C7al\u0131\u015Fan Paneli\\KullaniciBilgileri.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\\u00C7al\u0131\u015Fan Paneli\\KullaniciBilgileri.cs [Design]",
+              "RelativeToolTip": "BeylinaWinApp\\\u00C7al\u0131\u015Fan Paneli\\KullaniciBilgileri.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:34:15.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UyeKayit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00DCye\\UyeKayit.cs",
-              "RelativeDocumentMoniker": "BeylinaWinApp\\Giri\u015F\\\u00DCye\\UyeKayit.cs",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00DCye\\UyeKayit.cs [Design]",
-              "RelativeToolTip": "BeylinaWinApp\\Giri\u015F\\\u00DCye\\UyeKayit.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:31:42.101Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CalisanKayit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanKayit.cs",
-              "RelativeDocumentMoniker": "BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanKayit.cs",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\BeylinaWinApp\\BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanKayit.cs [Design]",
-              "RelativeToolTip": "BeylinaWinApp\\Giri\u015F\\\u00C7al\u0131\u015Fan\\CalisanKayit.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:31:41.029Z",
+              "WhenOpened": "2025-03-21T21:28:54.075Z",
               "EditorCaption": " [Design]"
             }
           ]

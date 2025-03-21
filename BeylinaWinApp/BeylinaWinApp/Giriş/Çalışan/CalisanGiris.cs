@@ -8,6 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -42,6 +43,8 @@ namespace BeylinaWinApp.Giriş
                         c.Isim = reader.GetString(1);
                         c.Soyisim = reader.GetString(2);
                         c.TamIsim = reader.GetString(3);
+                        //c.Mail = reader.GetString(4); 
+                        //c.Sifre = reader.GetString(5); 
                     }
                     if (c != null)
                     {
