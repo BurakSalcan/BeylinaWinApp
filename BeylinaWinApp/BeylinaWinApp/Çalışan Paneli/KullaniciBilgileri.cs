@@ -32,5 +32,19 @@ namespace BeylinaWinApp.Çalışan_Paneli
                 MessageBox.Show("Kullanıcı bilgileri yüklenemedi!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        public void AktarKullaniciBilgileri(Calisan c)
+        {
+            lbl_isim.Text = "İsim: " + c.Isim;
+            lbl_soyisim.Text = "Soyisim: " + c.Soyisim;
+            lbl_mail.Text = "Mail: " + c.Mail;
+            lbl_sifre.Text = "Şifre: " + c.Sifre;
+        }
+
+        private void btn_hesapSil_Click(object sender, EventArgs e)
+        {
+            CalisanHesapSil hesapSilFormu = new CalisanHesapSil();
+            hesapSilFormu.Show();
+        }
     }
 }

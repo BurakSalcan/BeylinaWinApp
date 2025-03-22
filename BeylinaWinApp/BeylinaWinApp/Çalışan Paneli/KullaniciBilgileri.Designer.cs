@@ -32,6 +32,8 @@
             this.lbl_soyisim = new System.Windows.Forms.Label();
             this.lbl_mail = new System.Windows.Forms.Label();
             this.lbl_sifre = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btn_hesapSil = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_isim
@@ -74,12 +76,37 @@
             this.lbl_sifre.TabIndex = 3;
             this.lbl_sifre.Text = "Şifre:";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(32, 352);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(725, 18);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "ÇALIŞAN HESABINIZIN SİLİNMESİNİ İSTİYORSANIZ LÜTFEN AŞAĞIDAKİ BUTONA TIKLAYINIZ:";
+            // 
+            // btn_hesapSil
+            // 
+            this.btn_hesapSil.BackColor = System.Drawing.Color.OrangeRed;
+            this.btn_hesapSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_hesapSil.Location = new System.Drawing.Point(338, 388);
+            this.btn_hesapSil.Name = "btn_hesapSil";
+            this.btn_hesapSil.Size = new System.Drawing.Size(120, 41);
+            this.btn_hesapSil.TabIndex = 5;
+            this.btn_hesapSil.Text = "HESABI SİL";
+            this.btn_hesapSil.UseVisualStyleBackColor = false;
+            this.btn_hesapSil.Click += new System.EventHandler(this.btn_hesapSil_Click);
+            // 
             // KullaniciBilgileri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(783, 454);
+            this.ControlBox = false;
+            this.Controls.Add(this.btn_hesapSil);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_sifre);
             this.Controls.Add(this.lbl_mail);
             this.Controls.Add(this.lbl_soyisim);
@@ -98,5 +125,7 @@
         private System.Windows.Forms.Label lbl_soyisim;
         private System.Windows.Forms.Label lbl_mail;
         private System.Windows.Forms.Label lbl_sifre;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_hesapSil;
     }
 }

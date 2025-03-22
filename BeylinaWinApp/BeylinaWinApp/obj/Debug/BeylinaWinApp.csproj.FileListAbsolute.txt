@@ -17,3 +17,5 @@ C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.Kayıtlı_Kullanıcı_İşlemleri.Calisanlar.resources
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.Kayıtlı_Kullanıcı_İşlemleri.Uyeler.resources
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.KullaniciBilgileri.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.CalisanHesapSil.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.Kategori_İşlemleri.Kategoriler.resources

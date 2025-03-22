@@ -1,4 +1,5 @@
-﻿using BeylinaWinApp.Giriş.Çalışan;
+﻿using BeylinaWinApp.Çalışan_Paneli;
+using BeylinaWinApp.Giriş.Çalışan;
 using BeylinaWinApp.Giriş.Üye;
 using BeylinaWinApp.Model;
 using System;
@@ -30,40 +31,42 @@ namespace BeylinaWinApp.Giriş
                 using (SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS; Initial Catalog=Beylina_DB; Integrated Security=true"))
                 {
                     SqlCommand cmd = conn.CreateCommand();
-                    cmd.CommandText = "SELECT ID, Isim, Soyisim, Isim+' '+Soyisim FROM Calisan WHERE Mail=@ma AND Sifre=@pss";
+                    cmd.CommandText = "SELECT ID, Isim, Soyisim, Mail, Sifre FROM Calisan WHERE Mail=@ma AND Sifre=@pss";
                     cmd.Parameters.AddWithValue("@ma", tb_mail.Text);
                     cmd.Parameters.AddWithValue("@pss", tb_sifre.Text);
                     conn.Open();
                     SqlDataReader reader = cmd.ExecuteReader();
                     Calisan c = null;
+
                     while (reader.Read())
                     {
                         c = new Calisan();
                         c.ID = reader.GetInt32(0);
                         c.Isim = reader.GetString(1);
                         c.Soyisim = reader.GetString(2);
-                        c.TamIsim = reader.GetString(3);
-                        //c.Mail = reader.GetString(4); 
-                        //c.Sifre = reader.GetString(5); 
+                        c.Mail = reader.IsDBNull(3) ? "Mail Yok" : reader.GetString(3);
+                        c.Sifre = reader.IsDBNull(4) ? "Şifre Yok" : reader.GetString(4);
                     }
+
                     if (c != null)
                     {
                         LoginCalisan.calisan = c;
                         islogin = true;
-                        CalisanForm calisanForm = new CalisanForm();
 
-                        // Açık olan tüm Calisan formlarını kapat
-                        foreach (Form form in Application.OpenForms)
+                        // 📌 Çalışan Formunu Aç
+                        CalisanForm calisanForm = new CalisanForm();
+                        foreach (Form form in Application.OpenForms.OfType<CalisanGiris>().ToList())
                         {
-                            if (form is CalisanGiris)
-                            {
-                                form.Hide();
-                                form.Close();
-                                break; // İlk bulduğunu kapattıktan sonra döngüden çık
-                            }
+                            form.Hide();
+                            form.Close();
                         }
 
                         calisanForm.ShowDialog();
+
+                        // 📌 Kullanıcı Bilgileri Formunu Aç ve Bilgileri Aktar
+                        KullaniciBilgileri kullaniciBilgileri = new KullaniciBilgileri();
+                        kullaniciBilgileri.AktarKullaniciBilgileri(c);
+                        kullaniciBilgileri.ShowDialog();
                     }
                     else
                     {
@@ -75,6 +78,57 @@ namespace BeylinaWinApp.Giriş
             {
                 MessageBox.Show("Kullanıcı adı ve şifre boş bırakılamaz", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
+            //if (!String.IsNullOrEmpty(tb_mail.Text) && !String.IsNullOrEmpty(tb_sifre.Text))
+            //{
+            //    using (SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS; Initial Catalog=Beylina_DB; Integrated Security=true"))
+            //    {
+            //        SqlCommand cmd = conn.CreateCommand();
+            //        cmd.CommandText = "SELECT ID, Isim, Soyisim, Isim+' '+Soyisim FROM Calisan WHERE Mail=@ma AND Sifre=@pss";
+            //        cmd.Parameters.AddWithValue("@ma", tb_mail.Text);
+            //        cmd.Parameters.AddWithValue("@pss", tb_sifre.Text);
+            //        conn.Open();
+            //        SqlDataReader reader = cmd.ExecuteReader();
+            //        Calisan c = null;
+            //        while (reader.Read())
+            //        {
+            //            c = new Calisan();
+            //            c.ID = reader.GetInt32(0);
+            //            c.Isim = reader.GetString(1);
+            //            c.Soyisim = reader.GetString(2);
+            //            c.TamIsim = reader.GetString(3);
+            //            //c.Mail = reader.GetString(4); 
+            //            //c.Sifre = reader.GetString(5); 
+            //        }
+            //        if (c != null)
+            //        {
+            //            LoginCalisan.calisan = c;
+            //            islogin = true;
+            //            CalisanForm calisanForm = new CalisanForm();
+
+            //            // Açık olan tüm Calisan formlarını kapat
+            //            foreach (Form form in Application.OpenForms)
+            //            {
+            //                if (form is CalisanGiris)
+            //                {
+            //                    form.Hide();
+            //                    form.Close();
+            //                    break; // İlk bulduğunu kapattıktan sonra döngüden çık
+            //                }
+            //            }
+
+            //            calisanForm.ShowDialog();
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show("Kullanıcı Bulunamadı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //        }
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Kullanıcı adı ve şifre boş bırakılamaz", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //}
 
         }
 

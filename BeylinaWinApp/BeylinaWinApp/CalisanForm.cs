@@ -28,7 +28,7 @@ namespace BeylinaWinApp
 
         private void CalisanForm_Load(object sender, EventArgs e)
         {
-            toolStripStatusLabel1.Text = "Giriş Yapan Çalışan: " + LoginCalisan.calisan.TamIsim;
+            toolStripStatusLabel1.Text = "Giriş Yapan Çalışan: " + LoginCalisan.calisan.Isim + " " + LoginCalisan.calisan.Soyisim;
 
             UrunSayisiniGuncelle();
             KategoriSayisiniGuncelle();
@@ -340,5 +340,9 @@ namespace BeylinaWinApp
 
         #endregion
 
+        private void CalisanForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

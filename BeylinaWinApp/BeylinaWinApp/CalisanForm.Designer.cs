@@ -56,14 +56,14 @@
             this.TSMI_KullaniciBilgileri});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(867, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // TSMI_Kategoriler
             // 
             this.TSMI_Kategoriler.Name = "TSMI_Kategoriler";
-            this.TSMI_Kategoriler.Size = new System.Drawing.Size(97, 26);
+            this.TSMI_Kategoriler.Size = new System.Drawing.Size(97, 24);
             this.TSMI_Kategoriler.Text = "Kategoriler";
             this.TSMI_Kategoriler.Click += new System.EventHandler(this.TSMI_Kategoriler_Click);
             // 
@@ -73,7 +73,7 @@
             this.TSMI_Calisanlar,
             this.TSMI_Uyeler});
             this.TSMI_KayitliKullanicilar.Name = "TSMI_KayitliKullanicilar";
-            this.TSMI_KayitliKullanicilar.Size = new System.Drawing.Size(141, 26);
+            this.TSMI_KayitliKullanicilar.Size = new System.Drawing.Size(141, 24);
             this.TSMI_KayitliKullanicilar.Text = "Kayıtlı Kullanıcılar";
             // 
             // TSMI_Calisanlar
@@ -93,14 +93,14 @@
             // TSMI_Urunler
             // 
             this.TSMI_Urunler.Name = "TSMI_Urunler";
-            this.TSMI_Urunler.Size = new System.Drawing.Size(71, 26);
+            this.TSMI_Urunler.Size = new System.Drawing.Size(71, 24);
             this.TSMI_Urunler.Text = "Ürünler";
             this.TSMI_Urunler.Click += new System.EventHandler(this.TSMI_Urunler_Click);
             // 
             // TSMI_KullaniciBilgileri
             // 
             this.TSMI_KullaniciBilgileri.Name = "TSMI_KullaniciBilgileri";
-            this.TSMI_KullaniciBilgileri.Size = new System.Drawing.Size(134, 26);
+            this.TSMI_KullaniciBilgileri.Size = new System.Drawing.Size(134, 24);
             this.TSMI_KullaniciBilgileri.Text = "Kullanıcı Bilgileri";
             this.TSMI_KullaniciBilgileri.Click += new System.EventHandler(this.TSMI_KullaniciBilgileri_Click);
             // 
@@ -109,24 +109,24 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 406);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 493);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(867, 26);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(151, 20);
-            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(136, 20);
+            this.toolStripStatusLabel1.Text = "Giriş Yapan Çalışan:";
             // 
             // lbl_urunSayisi
             // 
             this.lbl_urunSayisi.AutoSize = true;
             this.lbl_urunSayisi.BackColor = System.Drawing.Color.Transparent;
             this.lbl_urunSayisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_urunSayisi.Location = new System.Drawing.Point(21, 65);
+            this.lbl_urunSayisi.Location = new System.Drawing.Point(24, 88);
             this.lbl_urunSayisi.Name = "lbl_urunSayisi";
             this.lbl_urunSayisi.Size = new System.Drawing.Size(124, 20);
             this.lbl_urunSayisi.TabIndex = 3;
@@ -137,7 +137,7 @@
             this.lbl_kategoriSayisi.AutoSize = true;
             this.lbl_kategoriSayisi.BackColor = System.Drawing.Color.Transparent;
             this.lbl_kategoriSayisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_kategoriSayisi.Location = new System.Drawing.Point(21, 133);
+            this.lbl_kategoriSayisi.Location = new System.Drawing.Point(24, 164);
             this.lbl_kategoriSayisi.Name = "lbl_kategoriSayisi";
             this.lbl_kategoriSayisi.Size = new System.Drawing.Size(165, 20);
             this.lbl_kategoriSayisi.TabIndex = 4;
@@ -148,7 +148,7 @@
             this.lbl_altKategoriSayisi.AutoSize = true;
             this.lbl_altKategoriSayisi.BackColor = System.Drawing.Color.Transparent;
             this.lbl_altKategoriSayisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_altKategoriSayisi.Location = new System.Drawing.Point(21, 197);
+            this.lbl_altKategoriSayisi.Location = new System.Drawing.Point(24, 236);
             this.lbl_altKategoriSayisi.Name = "lbl_altKategoriSayisi";
             this.lbl_altKategoriSayisi.Size = new System.Drawing.Size(205, 20);
             this.lbl_altKategoriSayisi.TabIndex = 5;
@@ -159,7 +159,7 @@
             this.lbl_calisanSayisi.AutoSize = true;
             this.lbl_calisanSayisi.BackColor = System.Drawing.Color.Transparent;
             this.lbl_calisanSayisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_calisanSayisi.Location = new System.Drawing.Point(21, 261);
+            this.lbl_calisanSayisi.Location = new System.Drawing.Point(24, 308);
             this.lbl_calisanSayisi.Name = "lbl_calisanSayisi";
             this.lbl_calisanSayisi.Size = new System.Drawing.Size(150, 20);
             this.lbl_calisanSayisi.TabIndex = 6;
@@ -170,7 +170,7 @@
             this.lbl_uyeSayisi.AutoSize = true;
             this.lbl_uyeSayisi.BackColor = System.Drawing.Color.Transparent;
             this.lbl_uyeSayisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_uyeSayisi.Location = new System.Drawing.Point(21, 325);
+            this.lbl_uyeSayisi.Location = new System.Drawing.Point(24, 380);
             this.lbl_uyeSayisi.Name = "lbl_uyeSayisi";
             this.lbl_uyeSayisi.Size = new System.Drawing.Size(108, 20);
             this.lbl_uyeSayisi.TabIndex = 7;
@@ -180,7 +180,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 432);
+            this.ClientSize = new System.Drawing.Size(867, 519);
             this.Controls.Add(this.lbl_uyeSayisi);
             this.Controls.Add(this.lbl_calisanSayisi);
             this.Controls.Add(this.lbl_altKategoriSayisi);
@@ -191,6 +191,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "CalisanForm";
             this.Text = "CalisanForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CalisanForm_FormClosing);
             this.Load += new System.EventHandler(this.CalisanForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
