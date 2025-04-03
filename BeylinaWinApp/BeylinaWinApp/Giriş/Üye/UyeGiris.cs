@@ -24,45 +24,6 @@ namespace BeylinaWinApp.Giriş
 
         private void btn_uyeGiris_Click(object sender, EventArgs e)
         {
-            //if (!String.IsNullOrEmpty(tb_mail.Text) && !String.IsNullOrEmpty(tb_sifre.Text))
-            //{
-            //    using (SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS; Initial Catalog=Beylina_DB; Integrated Security=true"))
-            //    {
-            //        SqlCommand cmd = conn.CreateCommand();
-            //        cmd.CommandText = "SELECT ID, Isim, Soyisim, Isim+' '+Soyisim FROM Uye WHERE Mail=@ma AND Sifre=@pss";
-            //        cmd.Parameters.AddWithValue("@ma", tb_mail.Text);
-            //        cmd.Parameters.AddWithValue("@pss", tb_sifre.Text);
-            //        conn.Open();
-            //        SqlDataReader reader = cmd.ExecuteReader();
-            //        User u = null;
-            //        while (reader.Read())
-            //        {
-            //            u = new User();
-            //            u.ID = reader.GetInt32(0);
-            //            u.Isim = reader.GetString(1);
-            //            u.Soyisim = reader.GetString(2);
-            //            u.TamIsim = reader.GetString(3);
-            //        }
-            //        if (u != null)
-            //        {
-            //            LoginUser.user = u;
-            //            islogin = true;
-            //            AnaForm anaForm = new AnaForm();
-            //            anaForm.ShowDialog();
-            //            this.Hide();
-            //            this.Close();
-            //        }
-            //        else
-            //        {
-            //            MessageBox.Show("Kullanıcı Bulunamadı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        }
-
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Kullanıcı adı ve şifre boş bırakılamaz", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            //}
             if (!String.IsNullOrEmpty(tb_mail.Text) && !String.IsNullOrEmpty(tb_sifre.Text))
             {
                 using (SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS; Initial Catalog=Beylina_DB; Integrated Security=true"))

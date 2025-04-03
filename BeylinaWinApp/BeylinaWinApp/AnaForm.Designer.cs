@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "AnaForm";
-            this.Text = "AnaForm";
+            this.Text = "ÜYE";
             this.Load += new System.EventHandler(this.AnaForm_Load);
             this.ResumeLayout(false);
 

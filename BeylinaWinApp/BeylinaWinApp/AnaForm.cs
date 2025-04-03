@@ -16,7 +16,7 @@ namespace BeylinaWinApp
         public AnaForm()
         {
             InitializeComponent();
-            MessageBox.Show("AnaForm Açıldı");
+            MessageBox.Show("Üye Formu Açıldı");
         }
 
         private void AnaForm_Load(object sender, EventArgs e)
