@@ -130,6 +130,24 @@
     <Compile Include="Çalışan Paneli\Ürün İşlemleri\Urunler.Designer.cs">
       <DependentUpon>Urunler.cs</DependentUpon>
     </Compile>
+    <Compile Include="Üye Paneli\KullaniciBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Üye Paneli\KullaniciBilgileri.Designer.cs">
+      <DependentUpon>KullaniciBilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Üye Paneli\Magaza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Üye Paneli\Magaza.Designer.cs">
+      <DependentUpon>Magaza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Üye Paneli\UyeHesapSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Üye Paneli\UyeHesapSil.Designer.cs">
+      <DependentUpon>UyeHesapSil.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AnaForm.resx">
       <DependentUpon>AnaForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +177,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Çalışan Paneli\CalisanHesapSil.resx">
       <DependentUpon>CalisanHesapSil.cs</DependentUpon>
@@ -178,6 +197,15 @@
     <EmbeddedResource Include="Çalışan Paneli\Ürün İşlemleri\Urunler.resx">
       <DependentUpon>Urunler.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Üye Paneli\KullaniciBilgileri.resx">
+      <DependentUpon>KullaniciBilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Üye Paneli\Magaza.resx">
+      <DependentUpon>Magaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Üye Paneli\UyeHesapSil.resx">
+      <DependentUpon>UyeHesapSil.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -191,6 +219,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\BEYLİNA - Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BEYLİNA.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

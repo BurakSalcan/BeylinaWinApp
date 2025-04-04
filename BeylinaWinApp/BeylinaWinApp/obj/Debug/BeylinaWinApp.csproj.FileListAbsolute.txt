@@ -20,3 +20,6 @@ C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.CalisanHesapSil.resources
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.Kategori_İşlemleri.Kategoriler.resources
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Çalışan_Paneli.Ürün_İşlemleri.Urunler.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Üye_Paneli.KullaniciBilgileriUye.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Üye_Paneli.Magaza.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Üye_Paneli.UyeHesapSil.resources
