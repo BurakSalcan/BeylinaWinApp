@@ -54,9 +54,9 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 599);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 712);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(929, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(857, 26);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -75,21 +75,21 @@
             this.TSMI_kullaniciBilgileri});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(929, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(857, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // TSMI_magaza
             // 
             this.TSMI_magaza.Name = "TSMI_magaza";
-            this.TSMI_magaza.Size = new System.Drawing.Size(76, 26);
+            this.TSMI_magaza.Size = new System.Drawing.Size(76, 24);
             this.TSMI_magaza.Text = "Mağaza";
             this.TSMI_magaza.Click += new System.EventHandler(this.TSMI_magaza_Click);
             // 
             // TSMI_kullaniciBilgileri
             // 
             this.TSMI_kullaniciBilgileri.Name = "TSMI_kullaniciBilgileri";
-            this.TSMI_kullaniciBilgileri.Size = new System.Drawing.Size(134, 26);
+            this.TSMI_kullaniciBilgileri.Size = new System.Drawing.Size(134, 24);
             this.TSMI_kullaniciBilgileri.Text = "Kullanıcı Bilgileri";
             this.TSMI_kullaniciBilgileri.Click += new System.EventHandler(this.TSMI_kullaniciBilgileri_Click);
             // 
@@ -122,20 +122,20 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(23, 270);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(835, 50);
+            this.label2.Size = new System.Drawing.Size(705, 50);
             this.label2.TabIndex = 4;
             this.label2.Text = "Umarım keyifli bir alışveriş süreci yaşamanıza vesile olabiliriz. Lütfen alışveri" +
-    "ş yapacağınız alana \r\ngitmek için üst kısımda yer alan \"MAĞAZA\" kısmına tıklayın" +
+    "ş \r\nyapacağınız alana gitmek için üst kısımda yer alan \"MAĞAZA\" kısmına tıklayın" +
     "ız. ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(26, 344);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(760, 50);
+            this.label3.Size = new System.Drawing.Size(737, 48);
             this.label3.TabIndex = 5;
             this.label3.Text = "Eğer hesap bilgilerinizi kontrol etmek ya da bu konuda diğer işlemleri yapmak ist" +
     "erseniz\r\nlütfen \"KULLANICI BİLGİLERİ\" kısmına tıklayınız.";
@@ -156,7 +156,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::BeylinaWinApp.Properties.Resources.BEYLİNA;
-            this.pictureBox3.Location = new System.Drawing.Point(310, 68);
+            this.pictureBox3.Location = new System.Drawing.Point(248, 68);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(325, 91);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -167,7 +167,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::BeylinaWinApp.Properties.Resources.BEYLİNA___Logo;
-            this.pictureBox2.Location = new System.Drawing.Point(752, 40);
+            this.pictureBox2.Location = new System.Drawing.Point(661, 40);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(145, 141);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -190,7 +190,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(929, 625);
+            this.ClientSize = new System.Drawing.Size(857, 738);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
