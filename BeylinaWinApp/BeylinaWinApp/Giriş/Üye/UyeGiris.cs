@@ -29,7 +29,7 @@ namespace BeylinaWinApp.Giriş
                 using (SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS; Initial Catalog=Beylina_DB; Integrated Security=true"))
                 {
                     SqlCommand cmd = conn.CreateCommand();
-                    cmd.CommandText = "SELECT ID, Isim, Soyisim, Isim+' '+Soyisim FROM Uye WHERE Mail=@ma AND Sifre=@pss";
+                    cmd.CommandText = "SELECT ID, Isim, Soyisim, KartNo, Isim+' '+Soyisim FROM Uye WHERE Mail=@ma AND Sifre=@pss";
                     cmd.Parameters.AddWithValue("@ma", tb_mail.Text);
                     cmd.Parameters.AddWithValue("@pss", tb_sifre.Text);
                     conn.Open();
@@ -41,7 +41,8 @@ namespace BeylinaWinApp.Giriş
                         u.ID = reader.GetInt32(0);
                         u.Isim = reader.GetString(1);
                         u.Soyisim = reader.GetString(2);
-                        u.TamIsim = reader.GetString(3);
+                        u.KartNo = reader.GetString(3); // Eklendi
+                        u.TamIsim = reader.GetString(4);
                     }
                     if (u != null)
                     {

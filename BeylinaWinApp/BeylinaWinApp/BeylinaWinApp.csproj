@@ -142,6 +142,12 @@
     <Compile Include="Üye Paneli\Magaza.Designer.cs">
       <DependentUpon>Magaza.cs</DependentUpon>
     </Compile>
+    <Compile Include="Üye Paneli\SatinAlmaPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Üye Paneli\SatinAlmaPaneli.Designer.cs">
+      <DependentUpon>SatinAlmaPaneli.cs</DependentUpon>
+    </Compile>
     <Compile Include="Üye Paneli\UyeHesapSil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Üye Paneli\Magaza.resx">
       <DependentUpon>Magaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Üye Paneli\SatinAlmaPaneli.resx">
+      <DependentUpon>SatinAlmaPaneli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Üye Paneli\UyeHesapSil.resx">
       <DependentUpon>UyeHesapSil.cs</DependentUpon>

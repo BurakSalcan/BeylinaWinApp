@@ -23,3 +23,4 @@ C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Üye_Paneli.KullaniciBilgileriUye.resources
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Üye_Paneli.Magaza.resources
 C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Üye_Paneli.UyeHesapSil.resources
+C:\Users\burak\source\repos\BeylinaWinApp\BeylinaWinApp\obj\Debug\BeylinaWinApp.Üye_Paneli.SatinAlmaPaneli.resources

@@ -95,6 +95,11 @@
             // nud_fiyat
             // 
             this.nud_fiyat.Location = new System.Drawing.Point(583, 165);
+            this.nud_fiyat.Maximum = new decimal(new int[] {
+            -159383553,
+            46653770,
+            5421,
+            0});
             this.nud_fiyat.Name = "nud_fiyat";
             this.nud_fiyat.Size = new System.Drawing.Size(174, 22);
             this.nud_fiyat.TabIndex = 21;

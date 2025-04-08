@@ -39,8 +39,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pb_urunler = new System.Windows.Forms.PictureBox();
             this.dgv_urunler = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_satinAlMagaza = new System.Windows.Forms.Button();
+            this.lbl_urunAdi = new System.Windows.Forms.Label();
+            this.lbl_marka = new System.Windows.Forms.Label();
+            this.lbl_aciklama = new System.Windows.Forms.Label();
+            this.lbl_fiyat = new System.Windows.Forms.Label();
+            this.lbl_stok = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -148,25 +157,118 @@
             this.dgv_urunler.RowTemplate.Height = 24;
             this.dgv_urunler.Size = new System.Drawing.Size(492, 190);
             this.dgv_urunler.TabIndex = 18;
+            this.dgv_urunler.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_urunler_CellClick);
             // 
-            // button1
+            // btn_satinAlMagaza
             // 
-            this.button1.BackColor = System.Drawing.Color.OrangeRed;
-            this.button1.Location = new System.Drawing.Point(121, 402);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 35);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "SATIN AL";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_satinAlMagaza.BackColor = System.Drawing.Color.OrangeRed;
+            this.btn_satinAlMagaza.Location = new System.Drawing.Point(121, 402);
+            this.btn_satinAlMagaza.Name = "btn_satinAlMagaza";
+            this.btn_satinAlMagaza.Size = new System.Drawing.Size(92, 35);
+            this.btn_satinAlMagaza.TabIndex = 19;
+            this.btn_satinAlMagaza.Text = "SATIN AL";
+            this.btn_satinAlMagaza.UseVisualStyleBackColor = false;
+            this.btn_satinAlMagaza.Click += new System.EventHandler(this.btn_satinAlMagaza_Click);
+            // 
+            // lbl_urunAdi
+            // 
+            this.lbl_urunAdi.AutoSize = true;
+            this.lbl_urunAdi.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_urunAdi.Location = new System.Drawing.Point(328, 466);
+            this.lbl_urunAdi.Name = "lbl_urunAdi";
+            this.lbl_urunAdi.Size = new System.Drawing.Size(57, 16);
+            this.lbl_urunAdi.TabIndex = 20;
+            this.lbl_urunAdi.Text = "Ürün adı";
+            // 
+            // lbl_marka
+            // 
+            this.lbl_marka.AutoSize = true;
+            this.lbl_marka.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_marka.Location = new System.Drawing.Point(328, 546);
+            this.lbl_marka.Name = "lbl_marka";
+            this.lbl_marka.Size = new System.Drawing.Size(45, 16);
+            this.lbl_marka.TabIndex = 21;
+            this.lbl_marka.Text = "Marka";
+            // 
+            // lbl_aciklama
+            // 
+            this.lbl_aciklama.AutoSize = true;
+            this.lbl_aciklama.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_aciklama.Location = new System.Drawing.Point(328, 506);
+            this.lbl_aciklama.Name = "lbl_aciklama";
+            this.lbl_aciklama.Size = new System.Drawing.Size(63, 16);
+            this.lbl_aciklama.TabIndex = 22;
+            this.lbl_aciklama.Text = "Açıklama";
+            // 
+            // lbl_fiyat
+            // 
+            this.lbl_fiyat.AutoSize = true;
+            this.lbl_fiyat.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_fiyat.Location = new System.Drawing.Point(328, 586);
+            this.lbl_fiyat.Name = "lbl_fiyat";
+            this.lbl_fiyat.Size = new System.Drawing.Size(36, 16);
+            this.lbl_fiyat.TabIndex = 23;
+            this.lbl_fiyat.Text = "Fiyat";
+            // 
+            // lbl_stok
+            // 
+            this.lbl_stok.AutoSize = true;
+            this.lbl_stok.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_stok.Location = new System.Drawing.Point(328, 626);
+            this.lbl_stok.Name = "lbl_stok";
+            this.lbl_stok.Size = new System.Drawing.Size(34, 16);
+            this.lbl_stok.TabIndex = 24;
+            this.lbl_stok.Text = "Stok";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(271, 465);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(243, 465);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "label4";
+            this.label4.Size = new System.Drawing.Size(80, 17);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "Ürün adı: ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(243, 625);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 17);
+            this.label5.TabIndex = 26;
+            this.label5.Text = "Stok: ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(243, 545);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 17);
+            this.label6.TabIndex = 27;
+            this.label6.Text = "Marka: ";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(243, 505);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(77, 17);
+            this.label7.TabIndex = 28;
+            this.label7.Text = "Açıklama:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(243, 585);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 17);
+            this.label8.TabIndex = 29;
+            this.label8.Text = "Fiyat: ";
             // 
             // Magaza
             // 
@@ -174,8 +276,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(775, 683);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lbl_stok);
+            this.Controls.Add(this.lbl_fiyat);
+            this.Controls.Add(this.lbl_aciklama);
+            this.Controls.Add(this.lbl_marka);
+            this.Controls.Add(this.lbl_urunAdi);
+            this.Controls.Add(this.btn_satinAlMagaza);
             this.Controls.Add(this.dgv_urunler);
             this.Controls.Add(this.pb_urunler);
             this.Controls.Add(this.label3);
@@ -212,7 +323,16 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pb_urunler;
         private System.Windows.Forms.DataGridView dgv_urunler;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_satinAlMagaza;
+        private System.Windows.Forms.Label lbl_urunAdi;
+        private System.Windows.Forms.Label lbl_marka;
+        private System.Windows.Forms.Label lbl_aciklama;
+        private System.Windows.Forms.Label lbl_fiyat;
+        private System.Windows.Forms.Label lbl_stok;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }
